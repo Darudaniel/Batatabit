@@ -1,12 +1,40 @@
+
+.header--title-container h1 {
+  font-size: 3.5rem;
+  width: 98%;
+  margin: 0 auto;
+}
+
+.header--title-container p {
+  font-size: 1.8rem;
+  width: 90%;
+  margin: 45px auto 0;
+}
+
 .tables-container--slider {
   justify-content: space-around;
 }
 
 .product-cards--container {
   display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  width: 930px;
-  margin: 0 auto;
+  width: 100%;
+  padding: 30px;
+}
+
+.product-detail--card {
+  width: 40vw;
+}
+
+.bitcoin-img-container {
+  height: 90vh;
+}
+
+.bitcoin-img-container h2 {
+  font-size: 5.5rem;
+  padding: 75px;
+  text-align: center;
 }
 
 .plans-container--slider {
